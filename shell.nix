@@ -5,7 +5,9 @@ pkgs.mkShell {
   buildInputs = with pkgs; [
     ansible
     ansible-lint
+    aria
     bmake
+    bzip2
     git
     openssh
     packer

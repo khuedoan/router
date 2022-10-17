@@ -1,3 +1,7 @@
 .POSIX:
+.PHONY: default image
 
-default:
+default: image
+
+image:
+	make -C image
